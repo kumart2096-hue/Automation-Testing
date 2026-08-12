@@ -1,0 +1,45 @@
+1.Print the numbers from 1 to 50 which are divisible by 5 using looping statement and display the output
+
+
+public class Looping {
+
+	public static void main(String[] args) {
+		
+		for(int i=0;i<50;  i++) {
+			if(i % 5  ==0)
+			System.out.print(i+" ");
+	       }
+		}
+	}
+	
+
+Output:
+
+0 5 10 15 20 25 30 35 40 45 
+
+
+
+2.Count the odd numbers between 1 to 100 and print
+
+import java,util.Scanner;
+public class oddnumbers{
+public static void main(String[] args) {
+		System.out.println("Enter the number");
+		Scanner sc = new Scanner (System.in);
+		int number = sc.nextInt();
+		System.out.println("The number is:"+number+" ");
+		    for(int i=0; i<=number; i++)
+			
+			if (i%2 !=0)
+				System.out.print(i+" ");
+		}
+		
+}
+
+
+	output:
+
+Enter the number
+100
+The number is:100 
+1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99 
