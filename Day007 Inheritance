@@ -1,0 +1,51 @@
+Create a Parent Class Animal and Create a Child Class Cat.  
+
+Animal should have methods like sound(),sleep(),walk()
+
+Cat should inherit the Animal class and access the methods sound(),sleep() and walk()?
+
+
+public class AnimalCat {
+	
+	
+ static class Animal{
+		
+		void sound() 
+		{
+			System.out.print("Cat makes souds" );
+		}
+		
+		void walk()
+		{
+			System.out.println("Cat is Walking ");
+		}
+		void sleep()
+		{
+			System.out.println("Cat is sleeping");
+		}
+		
+	}
+		
+	
+	static class Cat extends Animal {
+		
+	}
+	
+	public static void main(String[] args) {
+		Cat M1 = new Cat();
+		
+		M1. sound ();
+		M1. walk ();
+		M1. sleep ();
+	} 
+
+}
+
+Output:
+
+Cat makes souds
+Cat is Walking 
+Cat is sleeping
+
+
+
